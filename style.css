@@ -1,0 +1,83 @@
+/* ... your existing styles ... */
+
+/* Total Records Widget Styles */
+.progress-bar-container {
+    background-color: #e9ecef;
+    border-radius: 5px;
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+
+.progress-bar {
+    background-color: #28a745; /* Green color */
+    color: white;
+    padding: 10px;
+    text-align: right;
+    border-radius: 5px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.widget-description {
+    font-size: 0.9em;
+    color: #777;
+    margin-top: 5px;
+}
+
+/* Latest Activity Widget Styles */
+.latest-activity-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.latest-activity-list li {
+    padding: 8px 0;
+    border-bottom: 1px solid #f8f9fa;
+}
+
+.latest-activity-list li:last-child {
+    border-bottom: none;
+}
+
+.activity-item {
+    font-weight: bold;
+    color: #333;
+    margin-right: 10px;
+}
+
+.activity-date {
+    color: #777;
+    font-size: 0.9em;
+}
+
+.latest-activity-list .no-activity {
+    color: #777;
+    font-style: italic;
+}
+
+/* Total Amount This Month Widget Styles (Basic Circular) */
+.circular-progress-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.circular-progress {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: #007bff; /* Blue color */
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.progress-value {
+    text-align: center;
+}
